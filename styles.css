@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3366cc;
+    color: #fff;
+    padding: 100px; /* Increased padding */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.left-menu {
+    background-color: #00cc99;
+    color: #fff;
+    flex: 1;
+    padding: 30px; /* Increased padding */
+}
+
+.left-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-menu li {
+    margin-bottom: 15px; /* Increased margin */
+}
+
+.left-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-content {
+    background-color: #ff6666;
+    color: #fff;
+    flex: 3;
+    padding: 95px; /* Increased padding */
+}
+
+footer {
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    padding: 45px; /* Increased padding */
+}
+
+/* Hover effect */
+.left-menu a:hover {
+    background-color: #008080; /* Change the background color on hover */
+    color: #fff; /* Update text color on hover if desired */
+}
